@@ -1,0 +1,20 @@
+--Цветовые темы:ThemeDark
+local ThemeDark = {
+BtBgColor = BackgroundColor3.RGB(72,72,72)
+TextColor = TextColor3.RGB(255,255,255)
+TextWeight = Bold
+ScaledText = true
+WindowBG = BackgroundColor3.RGB(107,107,107)
+}
+function NewWindow()
+local guipath = game.Players.error137sgda3e2ww.CoreGui
+local ScreenGUI = Instance.new("ScreenGui",guipath)
+ScreenGUI.Name = RoseLibary
+ScreenGUI.Position = {0.304, 0},{0.1, 0}
+ScreenGUI.Size = {0, 529},{0, 332}
+end
+function TitleLabel()
+--Coming Soon!
+end
+-- more
+
